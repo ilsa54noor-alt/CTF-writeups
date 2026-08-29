@@ -1,23 +1,27 @@
-# CTF-writeups
-Write-ups from CTFs, TryHackMe rooms, and hands-on security challenges — documenting
+# ctf-writeups
+Write-ups from Hack The Box CTFs and TryHackMe Hacker Holiday rooms — documenting
 not just the flags, but the reasoning, dead ends, and root causes behind each solve.
-
 Most of these come from **TryHackMe's Hacker Holidays 2026** event (The Byte Lotus
-Hotel) and **HTB Cyber Apocalypse 2026 "The Salt Crown"**, with more added as I work
-through rooms, boxes, and CTFs.
+Hotel), with more added as I work through rooms, boxes, and CTFs.
 
 ## Index
-| Writeup | Category | Platform | Difficulty |
-|---|---|---|---|
-| [The Concierge Knows Too Much](./the-concierge-knows-too-much.md) | AI / Prompt Injection / Social Engineering | TryHackMe — Hacker Holidays 2026 | Very Easy |
-| [Room 404](./room-404.md) | Web / Directory Enumeration | TryHackMe — Hacker Holidays 2026 | Very Easy |
-| [Towel on the Sunbed](./towel-on-the-sunbed.md) | Web Exploitation / Race Condition | TryHackMe — Hacker Holidays 2026 | Easy |
-| [Complimentary](./complimentary.md) | Cloud / AWS / Cognito / IAM Misconfiguration | TryHackMe — Hacker Holidays 2026 | Easy |
+| Writeup | Category | Difficulty |
+|---|---|---|
+| [The Concierge Knows Too Much](./the-concierge-knows-too-much.md) | AI / Prompt Injection / Social Engineering | Very Easy |
+| [Room 404](./room-404.md) | Web / Directory Enumeration | Very Easy |
+| [Towel on the Sunbed](./towel-on-the-sunbed.md) | Web Exploitation / Race Condition | Easy |
+| [Complimentary](./complimentary.md) | Cloud / AWS / Cognito / IAM Misconfiguration | Easy |
+| [Packed Light](./packed-light.md) | Forensics / PCAP Analysis / Cryptography | Easy |
+| [Beach Bar](./beach-bar.md) | Boot2Root / Web / YAML Deserialization | Easy |
+| [Overheard at Breakfast](./overheard-at-breakfast.md) | OSINT / Social Media / Hashing | Easy |
+| [CryptoCabana](./crypto-cabana.md) | Cloud / Azure / Storage / Key Vault | Medium |
+| [Do Not Disturb](./do-not-disturb.md) | Boot2Root / Web / NoSQLi / SSTI | Medium |
+| [The Hollow Shell](./the-hollow-shell.md) | Web / Zip Slip / Path Traversal | Medium |
 
 ## How these are structured
 Each writeup follows the same format:
-- **Challenge Summary** — what the scenario was and what the objective was
-- **Steps Taken** — the actual process, including what didn't work and why, not
+- **Challenge Summary** — what the scenario/app was and what the objective was
+- **Steps Taken** — the actual process, including what *didn't* work and why, not
   just the final working path
 - **Root Cause** — the underlying vulnerability class behind the flag, explained
   in plain terms
@@ -26,13 +30,3 @@ Each writeup follows the same format:
 
 Flags are intentionally omitted or redacted from writeups where they'd trivialize
 the challenge for others still working through the same room.
-
-## About
-
-I'm a Cybersecurity Engineering & Technology student building toward research and
-security roles internationally. This repo is where I track hands-on practice across
-web, cloud, and emerging AI/LLM security — alongside CTF placements, TryHackMe/HTB
-work, and other public profiles linked below.
-
-- TryHackMe / HackTheBox / PortSwigger / OverTheWire / CyberDefenders / Root Me
-- HackerOne / Bugcrowd / Hacker101
